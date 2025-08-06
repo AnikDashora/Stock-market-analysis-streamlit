@@ -9,7 +9,7 @@ import mplfinance as mpf
 def set_stock_data_file(stock_name):
     st.session_state["current_page"] = "dashbord_page"
     st.session_state["current_stock"] = stock_name
-    st.session_state["current_stock_file_path"] = f"D:\\project-3\\stock_market_data\\{stock_name}_DATA_SET.csv"
+    st.session_state["current_stock_file_path"] = f"D:\\Stock-market-analysis-streamlit\\stock_market_data\\{stock_name}_DATA_SET.csv"
 
 
 def initilaze():
